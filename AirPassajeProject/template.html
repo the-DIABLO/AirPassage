@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voucher de Viaje</title>
+    <link rel="stylesheet" href="C:/Users/ksaya/PycharmProjects/AirPassajeProject/estilos.css">
+</head>
+<body>
+    <div class="voucher-container">
+        <header>
+            <img class="logo" src="C:/Users/ksaya/PycharmProjects/AirPassajeProject/LogoAirPassage.png" alt="Logo">
+    <h1>Voucher de Viaje</h1>
+            <p>Imprimí este documento para que te acompañe en tu viaje</p>
+        </header>
+        <section class="reservation-code">
+            <span>Código de reserva</span>
+            <h2>HFELNZ</h2>
+        </section>
+        <section class="passenger-info">
+            <h3>Pasajeros</h3>
+            <table>
+                <tr>
+                    <th>Nombre y Apellido</th>
+                    <th>Número de ticket</th>
+                    <th>Clase</th>
+                </tr>
+                <tr>
+                    <td>{{Nombre}} {{Apellido}}</td>
+                    <td>{{NumTicket}}</td>
+                    <td>{{Clase}}</td>
+                </tr>
+            </table>
+        </section>
+        <section class="flight-info">
+            <h3>Información del vuelo</h3>
+            <table>
+                <tr>
+                    <th>N° Vuelo</th>
+                    <th>Desde</th>
+                    <th>Hasta</th>
+                    <th>Salida</th>
+                    <th>Llegada</th>
+                    <th>Num Asiento</th>
+                </tr>
+                <tr>
+                    <td>{{NumVuelo}}</td>
+                    <td>{{Origen}}</td>
+                    <td>{{Destino}}</td>
+                    <td>{{HoraSalida}}</td>
+                    <td>{{HoraLlegada}}</td>
+                    <td>{{NumAsiento}}</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+</body>
+</html>

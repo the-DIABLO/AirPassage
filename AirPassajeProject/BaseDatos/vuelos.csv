@@ -1,0 +1,11 @@
+id,aerolinea,origen,destino,hora_salida,hora_llegada,duracion,precio
+1,Sky High,Nueva York,Houston,08:51,10:51,2:00:00,886.15
+2,Eagle Airlines,Los Ángeles,Houston,00:51,05:51,5:00:00,961.72
+3,Eagle Airlines,Nueva York,Houston,06:51,07:51,1:00:00,605.56
+4,Sky High,Nueva York,Miami,08:51,13:51,5:00:00,177.16
+5,Sky High,Nueva York,Miami,01:51,05:51,4:00:00,921.94
+6,Air Passage,Chicago,Miami,03:51,06:51,3:00:00,534.45
+7,Air Passage,Chicago,Los Ángeles,06:51,10:51,4:00:00,872.52
+8,Wings Air,Nueva York,Houston,05:51,09:51,4:00:00,655.89
+9,Wings Air,Houston,Los Ángeles,08:51,11:51,3:00:00,487.81
+10,Air Passage,Los Ángeles,Nueva York,01:51,05:51,4:00:00,522.42

@@ -1,0 +1,10 @@
+ID_Asiento,ID_Vuelo,Reservado
+1,101,No
+2,101,Sí
+3,101,No
+4,102,No
+5,102,Sí
+6,103,No
+7,103,No
+8,104,Sí
+9,104,No
